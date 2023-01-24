@@ -10,7 +10,7 @@ class MainApp(App) :
 
         language = 'en'
 
-        pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+        pytesseract.pytesseract.tesseract_cmd = 'ur tesseract.exe file'
 
         img = cv2.imread('testImage.png')
 
